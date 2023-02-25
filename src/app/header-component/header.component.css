@@ -1,0 +1,53 @@
+body {
+  width: 1440px;
+}
+
+.header-style {
+  width: 1440px;
+  height: 48px;
+}
+
+nav {
+  background-color: white;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underline {
+  background-color: #A0A9BA;
+  width: 1440px;
+  height: 1px;
+  margin: 0px;
+}
+
+.logo-kitty {
+  width: 123px;
+  height: 30px;
+  position: relative;
+  left: 120px; 
+}
+
+ul {
+  display: flex;
+  position: relative;
+  right: 110px;
+}
+
+li {
+  padding: 5px; 
+  list-style-type: none;
+}
+
+a {
+  color: #555555;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  letter-spacing: -0.17px;
+  line-height: 17px;
+  text-align: left;
+}
