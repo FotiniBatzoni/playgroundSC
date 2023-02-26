@@ -14,8 +14,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-    /* width: 100%;
-    height: 100%; */
 }
 
 .footer-section {
@@ -42,9 +40,17 @@ footer {
   text-decoration: none;
   padding-left: 50px;
   color: white;
+  height: 23px;
+  font-family: Manrope-ExtraLight_Bold;
+  font-size: 14px;
+  letter-spacing: -0.17px;
+  line-height: 22.5px;
+  text-align: left
 }
 
 .icons {
+  width: 160px;
+  height: 48px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -52,15 +58,32 @@ footer {
   top:20px;
 }
 
-.social-icons a {
-  height: 50px;
-  width: 30px;
+#footer-logo {
+  width: 157px;
+  height: 30px;
 }
 
-.copyright {
-  color: white;
-  margin-bottom: 24px;
-  font-size: 14px;
+.icons img {
+  height: 48px;
+  width: 48px;
+  background-repeat: no-repeat;
+  background-size: 48px;
+  cursor: pointer;
+
+}
+
+#copyright {
+  width: 157px;
+  height: 23px;
+  color: #E1E4EA;
+  font-family: Manrope-Medium;
+  font-weight: medium;
+  font-size: 12px;
+  letter-spacing: -0.15px;
+  line-height: 22.5px;
+  text-align: left;
+  position: relative;
+  top:20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,7 +102,4 @@ footer {
     color: white;
   }
   
-  .social-icons img {
-    height: 30px;
-  }
 }

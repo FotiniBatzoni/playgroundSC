@@ -39,7 +39,7 @@
           <textarea id="message" [(ngModel)]="message" name="message" rows="5" cols="70"labr placeholder="Type your message" required></textarea>
         </div>
        <div class="form-check">
-          <input type="checkbox" id="agreeTerms" [(ngModel)]="agreeTerms" name="agreeTerms" class="form-check-input"  required>
+          <input type="checkbox" id="agreeTerms" [(ngModel)]="agreeTerms" name="agreeTerms"  required>
           <label for="agreeTerms" id="checkLabel">I agree with the Terms &amp; Conditions</label>
         </div>
         <button type="submit" class="submit">Send!</button> 
@@ -54,11 +54,19 @@
     </div>
 
     <div class="address-container">
+
         <h2>Headquarters</h2>
-        <p>Aristotelous 16, 54658</p>
-        <p>Thessaloniki, Greece</p>
-        <p>+30 231 129 0998</p>
-        <p>hey@smellycat.gr</p>
+        <div class="addressDiv">
+          <div>
+            <p>Aristotelous 16, 54658</p>
+            <p>Thessaloniki, Greece</p>
+          </div>
+          <div id="info">
+            <p>+30 231 129 0998</p>
+            <p>hey@smellycat.gr</p>
+          </div>
+
+        </div>
 
     </div>
   
