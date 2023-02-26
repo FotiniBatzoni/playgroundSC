@@ -32,20 +32,36 @@ footer {
 .links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-left: 50px;
+  align-items: left;
+  width:449px;
 }
 
 .links a {
   text-decoration: none;
-  padding-left: 50px;
   color: white;
   height: 23px;
-  font-family: Manrope-ExtraLight_Bold;
+  font-family: Manrope;
+  font-weight: 200;
   font-size: 14px;
   letter-spacing: -0.17px;
   line-height: 22.5px;
   text-align: left
+}
+
+#privacy {
+  width: 91px;
+}
+
+#terms { 
+  width: 129px;
+}
+
+#blog {
+  width: 30px
+}
+
+#support {
+  width: 45px;
 }
 
 .icons {
@@ -75,8 +91,8 @@ footer {
   width: 157px;
   height: 23px;
   color: #E1E4EA;
-  font-family: Manrope-Medium;
-  font-weight: medium;
+  font-family: Manrope;
+  font-weight: 500;
   font-size: 12px;
   letter-spacing: -0.15px;
   line-height: 22.5px;

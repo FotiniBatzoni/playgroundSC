@@ -43,11 +43,53 @@ li {
 a {
   color: #555555;
   font-family: Manrope;
-  font-size: 15px;
   font-weight: bold;
+  font-size: 15px;
+  font-weight: 200;
   text-decoration: none;
   padding: 20px;
   letter-spacing: -0.17px;
   line-height: 17px;
   text-align: left;
 } 
+
+
+
+/* For screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .header-style {
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .logo-kitty {
+    position: static;
+    margin: 10px;
+  }
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  a {
+    display: block;
+    padding: 5px;
+  }
+
+  .underline {
+    width: 100%;
+    height: 1px;
+  }
+}
