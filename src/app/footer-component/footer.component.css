@@ -51,11 +51,11 @@ footer {
 .icons {
   width: 160px;
   height: 48px;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
    position: relative;
-  top:20px;
 }
 
 #footer-logo {
@@ -63,12 +63,11 @@ footer {
   height: 30px;
 }
 
-.icons img {
+.footer-icons {
   height: 48px;
   width: 48px;
-  background-repeat: no-repeat;
-  background-size: 48px;
-  cursor: pointer;
+  position: relative;
+  top: 10px;
 
 }
 
