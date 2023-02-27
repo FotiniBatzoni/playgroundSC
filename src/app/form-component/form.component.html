@@ -1,3 +1,4 @@
+
 <div class="screen-container">
 
   <div class="left-container">
@@ -10,34 +11,43 @@
      <div class="form-container">
       <form (ngSubmit)="onSubmit()" class="my-form">
         <div class="form-group" id="fullNameDiv"> 
-          <label  class="label" id="fullNameLabel" for="fullName" placeholder="Type your name">Your Full Name</label>
-          <input  class="text" type="text" id="fullNameInput" [(ngModel)]="fullName" name="fullName" class="form-control"  placeholder="Type your name" required>
+          <label  class="label" id="fullNameLabel" for="fullName" placeholder="  Type your name">Your Full Name</label>
+          <input  class="text" type="text" id="fullNameInput" [(ngModel)]="fullName" name="fullName" class="form-control"  placeholder="  Type your name" required>
         </div>
         <div class="form-group" id="emailDiv">
           <label class="label" id="emailLabel" for="email">Your Email</label>
-          <input class="text" id="emailInput" type="email" id="email" [(ngModel)]="email" name="email" class="form-control"  placeholder="Type your email" required>
+          <input class="text" id="emailInput" type="email" [(ngModel)]="email" name="email" class="form-control"  placeholder="  Type your email" required>
         </div>
         <hr class="divider">
  
         <div id="city-pc">
           <div id="form-group-city">
             <label id="cityLabel" for="city">City</label>
-            <input id="city" class="smallInput" type="text"  [(ngModel)]="city" name="city"  placeholder="ex. Thessaloniki">
+            <input id="city" class="smallInput" type="text"  [(ngModel)]="city" name="city"  placeholder="  ex. Thessaloniki">
           </div>
           <div id="form-group-pc">
             <label id="pcLabel" for="postCode">Postal Code</label>
-            <input  id="postCode" class="smallInput" type="text" id="postCode" [(ngModel)]="postCode" name="postCode"  placeholder="ex. 54658">
+            <input  id="postCode" class="smallInput" type="text" id="postCode" [(ngModel)]="postCode" name="postCode"  placeholder="  ex. 54658">
           </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" id="form-group-address">
           <label id="addressLabel" for="address">Address</label>
-          <input type="text" id="address" [(ngModel)]="address" name="address" class="form-control" placeholder="ex. Thessaloniki">
+          <input type="text" id="address" [(ngModel)]="address" name="address" class="form-control" placeholder="  ex. Thessaloniki">
         </div>
+
         <div class="form-group">
-          <label  id="messageLabel" for="message">Your Message</label>
-          <textarea id="message" [(ngModel)]="message" name="message" rows="5" cols="70"labr placeholder="Type your message" required></textarea>
+          <div id="optionalDiv">
+            <label  id="messageLabel" for="message">Your Message</label>
+            <p id="optional">Optional</p>
+          </div>
+          <div id="textareaDiv">
+            <textarea id="message" [(ngModel)]="message" name="message" rows="5" cols="70"labr placeholder="  Type your message" required></textarea>
+          </div>
+         
         </div>
+
+
        <div class="form-check">
           <input type="checkbox" id="agreeTerms" [(ngModel)]="agreeTerms" name="agreeTerms"  required>
           <label for="agreeTerms" id="checkLabel">I agree with the Terms &amp; Conditions</label>
@@ -46,6 +56,7 @@
       </form> 
     </div>
   </div>
+  
 
   <div class="right-container">
 
@@ -69,6 +80,8 @@
         </div>
 
     </div>
+  </div>
   
 
 </div>
+

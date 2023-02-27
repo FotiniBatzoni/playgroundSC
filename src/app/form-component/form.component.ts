@@ -25,6 +25,6 @@ export class FormComponent {
   }
 
   onSubmit() {
-    // Submit form data
+  
   }
 }
